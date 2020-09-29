@@ -15,13 +15,13 @@
                     <th>Username</th>
                 </tr>
                 <tr>
-                    <td><input type="text" name="username" class="form-control" required></td>
+                    <td><input type="text" name="username"></td>
                 </tr>
                 <tr>
                     <th>Password</th>
                 </tr>
                 <tr>
-                    <td><input type="password" name="password" class="form-control" required></td>
+                    <td><input type="password" name="password"></td>
                 </tr>
                 <tr>
                     <td><button type="submit" name="submit">Login</button></td>
