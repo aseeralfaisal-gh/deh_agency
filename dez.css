@@ -1,0 +1,173 @@
+*
+{
+    margin: 3px;
+    padding: 3px;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    font-weight: 300;
+    color: aliceblue;
+    text-align: start;
+}
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+::-webkit-scrollbar-track {
+    background: #00000070; 
+}
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 40, 173, 0.432); 
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(3, 68, 129, 0.493); 
+}
+    
+body{
+    background-image: url(main.jpg);
+    background-size: 80%;
+    background-position-x: center;
+    background-position-y: center;
+    background-attachment: fixed;
+}
+.tab
+{
+    padding: 70px;
+    margin-top: 150px;
+    margin-left: -3px;
+    margin-right: -3px;
+}
+button
+{
+    font-family: 'Roboto';
+    font-weight: 300;
+    padding: 7px;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.315);
+    border-style: none;
+}
+i
+{
+    font-size: 40px;
+}
+.title
+{
+    font-size: 40px;
+}
+input
+{
+    align-content: initial;
+    align-items: initial;
+    background-color: rgba(0, 0, 0, 0.315);
+    border-style: none;
+    width: 300px;
+    height: 28px;
+}
+li
+{
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+}
+li a
+{
+    text-decoration: none;
+    list-style: none;
+}
+li a:hover
+{
+    text-decoration: underline;
+}
+.nav
+{
+    background-color: rgba(0, 0, 0, 0.137);
+    padding: 2px;
+    width: max-content;
+    height: fit-content;
+}
+.slide
+{
+    width: 100% auto;
+    height: 600px;
+    background: url(img/1.jpg);
+    background-position: absolute;
+    animation: slide 15s infinite;
+    opacity: 100%;
+}
+@keyframes slide{
+25%{
+    background: url(img/2.jpg)
+}
+50%{
+    background: url(img/1.jpg)
+}
+75%{
+    background: url(img/0.jpg)
+}
+75%{
+    background: url(img/2.jpg)
+}
+}
+.grey
+{
+    background-color: rgb(0, 0, 0);
+    height: 20px;
+    width: 50%;
+    border-radius: 10px;
+}
+.murder
+{
+    padding: 0;
+    margin-left: -3px;
+    background-color: blue;
+    height: 14px;
+    width: 66%;
+    border-radius: 10px;
+}
+.spy
+{
+    padding: 0;
+    margin-left: -3px;
+    background-color: blue;
+    height: 14px;
+    width: 44%;
+    border-radius: 10px;
+}
+.kidnap
+{
+    padding: 0;
+    margin-left: -3px;
+    background-color: blue;
+    height: 14px;
+    width: 33%;
+    border-radius: 10px;
+}
+.lost
+{
+    padding: 0;
+    margin-left: -3px;
+    background-color: blue;
+    height: 14px;
+    width: 49%;
+    border-radius: 10px;
+}
+.high
+{
+    padding: 0;
+    margin-left: -3px;
+    background-color: blue;
+    height: 14px;
+    width: 33%;
+    border-radius: 10px;
+}
+.bars
+{
+    margin: 0;
+    padding: 2%;
+}
+.about
+{
+    text-align: left;
+    font-weight: 800;
+    width: 80%;
+}
