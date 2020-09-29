@@ -8,7 +8,7 @@
         <i class="fas fa-eye"></i>
         <span class="title">Detective Hiring Agency</span>
         <div class="tab">
-            <form action = "validation.php" method = "post">
+            <form action = "Main_reg.php" method = "post">
             <table>
                 <tr>
                     <th>Username</th>
@@ -23,7 +23,7 @@
                     <td><input type="password" name="password"></td>
                 </tr>
                 <tr>
-                    <td><button type="submit" name="submit">Login</button></td>
+                    <td><button type="submit" name="submit">Register</button></td>
                 </tr>
             </table>
 </form>
