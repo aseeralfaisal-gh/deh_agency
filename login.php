@@ -7,6 +7,7 @@
     <body>  
         <i class="fas fa-eye"></i>
         <span class="title">Detective Hiring Agency</span>
+        <h1>😁Login</h1>
         <div class="tab">
             <form action = "validation.php" method = "post">
             <table>
